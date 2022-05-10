@@ -6,13 +6,13 @@ Raccolta di alcuni dati utili a tema PNRR
 
 ### CUP legati al PNRR
 
-Su OpenCUP, nel dataset dei [**Progetti**](https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv_0.zip), ci sono alcune migliaia di record che nel campo `CODICE_LOCALE_PROGETTO` hanno la stringa `PNRR`.
+Su OpenCUP, nel dataset dei [**Progetti**](https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv_0.zip) (attenzione è un file che decompresso pesa più di 5 GB), ci sono alcune migliaia di record che nel campo `CODICE_LOCALE_PROGETTO` hanno la stringa `PNRR`.
 
-Sono pubblicati nel file [`progetti-opencup-PNRR.csv`](dati/progetti-opencup/progetti-opencup-PNRR.csv).
+Sono stati estratti e pubblicati nel file [`progetti-opencup-PNRR.csv`](dati/progetti-opencup/progetti-opencup-PNRR.csv).
 
 ### Informazioni territoriali dei CUP legati al PNRR
 
-Su OpenCUP c'è la risorsa denominata `Localizzazione`, con le informazioni territoriali dei CUP.
+Su OpenCUP c'è la risorsa denominata [`OpenCUP_Localizzazione`](https://opencup.gov.it/documents/21195/117121/OpenCUP_Localizzazione.zip), con le informazioni territoriali dei CUP.
 
 Sono state estratte quelli dei dei CUP legati al PNRR, nel file [`progetti-opencup-PNRR-localizzazioni.csv`](dati/progetti-opencup/progetti-opencup-PNRR-localizzazioni.csv)
 
