@@ -59,6 +59,8 @@ header=$(<"$file" head -n 1)
 
 mlr --csv cut -f "$header" "$folder"/../tmp/tmp.csv >"$folder"/../../dati/"$name"/"$name"-PNRR-localizzazioni.csv
 
+mlr -I --csv sort -f CUP "$folder"/../../dati/"$name"/"$name"-PNRR-localizzazioni.csv
+
 # Cancella temporanei
 find "$folder"/../tmp -iname "*.*" -type f -delete
 
@@ -84,6 +86,8 @@ qsvlite join CUP "$folder"/../../dati/"$name"/"$name"-PNRR.csv CUP "$file" >"$fo
 header=$(<"$file" head -n 1)
 
 mlr --csv cut -f "$header" "$folder"/../tmp/tmp.csv >"$folder"/../../dati/"$name"/"$name"-PNRR-CIG.csv
+
+mlr -I --csv sort -f CUP "$folder"/../../dati/"$name"/"$name"-PNRR-CIG.csv
 
 # Cancella temporanei
 find "$folder"/../tmp -iname "*.*" -type f -delete
