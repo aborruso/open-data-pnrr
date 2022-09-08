@@ -13,6 +13,7 @@
 # Note per OpenCUP
 
 - [ ] il separatore di campi e l'*encoding* indicati per i file della prima sezione, non corrispondono a quello di `Progetti`
+- [ ] `CODICE_LOCALE_PROGETTO` sembra contenere stringhe scritte "a mano", senza controlli
 
 # Domande per ANAC
 
