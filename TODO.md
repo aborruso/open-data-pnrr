@@ -18,4 +18,4 @@
 
 # Idee
 
-- creare il datapackage del dataset `Complessivo` e di `Progetti`
+- [ ] creare il datapackage del dataset `Complessivo` e di `Progetti`
